@@ -26,5 +26,32 @@ module.exports = function (app) {
 
     });
 
+    // adds new notes
+    app.post('/api/notes', async (req, res) => { 
+    
+        const { title , text } = req.body;
+        const data = {
+            title: title,
+            text: text,
+            id: Date.now()
+        };
+        
+        let notes = await readFileAsync(DB_PATH, "utf-8");
+    
+        if(notes) {
+            notes = JSON.parse(notes);
+            notes.push(data);
+        } else {
+            notes = [data];
+        }
+    
+        await writeFileAsync(DB_PATH, JSON.stringify(notes), "utf-8");
+        
+        res.json(notes);
+        res.end()
+        
+    })
+    
+
 
 };
