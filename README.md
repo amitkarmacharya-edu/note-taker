@@ -33,7 +33,7 @@ An application that can be used to write, save, and delete notes. This applicati
         ```
         node note-taker-server.js
         ```
-        type http://localhost:3001 in your browser address bard to use the app after the server starts.
+        type http://localhost:3001 in your browser address bar to use the app after the server starts.
 
 &nbsp;
 
