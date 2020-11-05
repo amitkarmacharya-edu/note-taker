@@ -39,7 +39,7 @@ An application that can be used to write, save, and delete notes. This applicati
 
 ## Usage
 
-Use this application to create notes that will help you organize your tasks or as reminder.
+Use this application to create notes that will help you organize your tasks or use it as a todo.
 
 &nbsp;
 
