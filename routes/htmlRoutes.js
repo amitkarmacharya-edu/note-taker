@@ -3,14 +3,19 @@ const path = require('path');
 module.exports = function (app) {
 
     // request to notes.html
-    app.get('/notes', (req,res) => {
-        res.sendFile(path.join(__dirname,'../public/notes.html'));
+    app.get('/notes', (req, res) => {
+        res.sendFile(path.join(__dirname, '../public/notes.html'));
     });
 
-    
+
     // default url
     app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname,'../public/index.html'));
+        res.sendFile(path.join(__dirname, '../public/index.html'));
     });
-    
+
+    // root
+    app.get("/", function (req, res) {
+        res.json(path.join(__dirname, "../public/index.html"));
+    });
+
 };

@@ -4,8 +4,8 @@
 // ==============================================================================
 const express = require('express');
 
-const PORT = process.env.PORT || 3000;
-const HOST = "http://localhost:3000"; 
+const PORT = process.env.PORT || 3001;
+const HOST = "http://localhost:3001"; 
 
 const app = express();
 
