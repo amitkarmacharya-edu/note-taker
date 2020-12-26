@@ -12,11 +12,26 @@ An application that can be used to write, save, and delete notes. This applicati
 
 ---
 ### Table of Contents
+- [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Author Info](#author-info)
 - [License](#License)
 ---
+
+&nbsp;
+
+## Technologies
+
+- JavaScript
+- HTML5
+- CSS3
+- NPM Modules
+- Visual Studio Code
+- Node.js
+- express
+- bootstrap v4.1.3
+- jQuery
 
 &nbsp;
 
