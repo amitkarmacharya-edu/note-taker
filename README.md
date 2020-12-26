@@ -1,6 +1,8 @@
 # Note Taker
 An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
+[Live on Heroku](https://sleepy-coast-70695.herokuapp.com/)
+
 #### Landing Page Screen Shot
 ![Landing Page Screen Shot](./public/assets/images/landing-page.png)
 
